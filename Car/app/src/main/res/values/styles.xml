@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TabButtonid">
+        <item name="android:textSize">10px</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#f80f0f0f</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TabButtonid1">
+        <item name="android:textSize">10px</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">#7597B3</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#f80f0f0f</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:drawablePadding">1.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TabButtonid2">
+        <item name="android:textSize">10px</item>
+
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">#7597B3</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#efefef</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:drawablePadding">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">4.0</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!--<style name="buy_sell_fragment">-->
+    <!--<item name="android:textSize">10px</item>-->
+
+    <!--<item name="android:ellipsize">marquee</item>-->
+    <!--<item name="android:textColor">#7597B3</item>-->
+    <!--<item name="android:gravity">center_horizontal</item>-->
+    <!--<item name="android:background">#f80f0f0f</item>-->
+    <!--<item name="android:layout_marginTop">4.0dip</item>-->
+    <!--<item name="android:button">@null</item>-->
+    <!--<item name="android:paddingTop">4.0dip</item>-->
+    <!--<item name="android:drawablePadding">4.0dip</item>-->
+    <!--<item name="android:layout_width">fill_parent</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:layout_weight">4.0</item>-->
+    <!--<item name="android:singleLine">true</item>-->
+    <!--<item name="android:windowNoTitle">true</item>-->
+    <!--</style>-->
+
+</resources>

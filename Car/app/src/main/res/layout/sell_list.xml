@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<TextView-->
+
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="新订单"-->
+        <!--android:background="@drawable/textfield_default"-->
+        <!--android:textSize="22sp"/>-->
+    <LinearLayout
+        android:id="@+id/liner_home_liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/textfield_default"
+
+        >
+
+        <Button
+            android:id="@+id/seller_neworder"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:text="新订单"
+            android:textSize="14sp"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/seller_priced"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:text="已报价"
+            android:textSize="14sp"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/seller_trading"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:text="交易中"
+            android:textSize="14sp"
+            android:background="#fff"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/seller_checked"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:text="已签收"
+            android:textSize="14sp"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+    <com.example.dawn.car.domain.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    </com.example.dawn.car.domain.RefreshableView>
+
+</LinearLayout>

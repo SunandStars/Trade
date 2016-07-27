@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="CarBrand">
+        <item>大众</item>
+        <item>宝马</item>
+        <item>奔驰</item>
+        <item>奥迪</item>
+        <item>本田</item>
+        <item>日产</item>
+        <item>保时捷</item>
+        <item>丰田</item>
+        <item>福特</item>
+        <item>斯巴鲁</item>
+        <item>菲亚特</item>
+        <item>别克</item>
+        <item>克莱斯勒</item>
+        <item>雷克萨斯</item>
+        <item>路虎</item>
+        <item>雪铁龙</item>
+        <item>起亚</item>
+        <item>现代</item>
+        <item>沃尔沃</item>
+        <item>红旗</item>
+
+    </string-array>
+    <string-array name="CarModel">
+        <item>宝来</item>
+        <item>高尔夫</item>
+        <item>速腾</item>
+        <item>捷达</item>
+        <item>迈腾</item>
+        <item>国产CC</item>
+        <item>开迪</item>
+        <item>桑塔拉</item>
+        <item>甲壳虫</item>
+
+    </string-array>
+
+</resources>

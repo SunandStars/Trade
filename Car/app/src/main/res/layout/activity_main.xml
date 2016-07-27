@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <FrameLayout
+        android:id="@+id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+    </FrameLayout>
+    <RadioGroup
+        android:id="@+id/tab_radiogroup"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/First_ButtonID"
+            android:layout_marginTop="1.0dip"
+            android:text="首页"
+            android:textSize="10sp"
+            android:textColor="@drawable/car_tab_first_colorselector"
+            android:drawableTop="@drawable/car_tab_first_drawable"
+            style="@style/TabButtonid"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/Sell_ButtonID"
+            android:layout_marginTop="1.0dip"
+            android:text="商家"
+            android:textSize="10sp"
+            android:textColor="@drawable/car_tab_buy_colorselector"
+            android:drawableTop="@drawable/car_tab_buy_drawable"
+            style="@style/TabButtonid" />
+        <RadioButton
+            android:id="@+id/Buy_ButtonID"
+            android:layout_marginTop="1.0dip"
+            android:text="修理厂"
+            android:textSize="10sp"
+            android:textColor="@drawable/car_tab_buy_colorselector"
+            android:drawableTop="@drawable/car_tab_buy_drawable"
+
+            style="@style/TabButtonid" />
+        <RadioButton
+            android:id="@+id/Set_ButtonID"
+            android:layout_marginTop="1.0dip"
+            android:text="管理"
+            android:textSize="10sp"
+            android:textColor="@drawable/car_tab_set_colorselector"
+            android:drawableTop="@drawable/car_tab_set_drawable"
+            style="@style/TabButtonid" />
+    </RadioGroup>
+</LinearLayout>

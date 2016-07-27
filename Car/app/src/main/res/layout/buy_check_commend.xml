@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_default"
+        >
+        <Button
+            android:id="@+id/manage_checkinf_bnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:background="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商家评价"
+            android:layout_centerInParent="true"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/list_check_commend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>

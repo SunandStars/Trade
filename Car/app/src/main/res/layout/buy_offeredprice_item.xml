@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+        <TextView
+            android:id="@+id/txt_baojia_distributor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="XXXXXX(供应商)"
+            android:textSize="@dimen/font_18sp"
+            android:gravity="center"
+            />
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/image_distributor_baojia"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/view5"
+                    android:scaleType="fitXY"/>
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <RatingBar
+                    android:id="@+id/rating3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:max="50"
+                    android:progress="0"
+                    android:stepSize="0.5"
+                    android:isIndicator="true"
+                    style="?android:attr/ratingBarStyleSmall"
+
+                    />
+                <Button
+                    android:id="@+id/bn_baojia_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看评价"
+                    android:textSize="@dimen/font_14sp"
+                    android:textColor="#ff0000"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="95dp"
+                />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                       <TextView
+                            android:layout_width="@dimen/width_0dp"
+                            android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                            android:text="质保 "
+                            android:textSize="@dimen/font_14sp"
+                        />
+                    <TextView
+                        android:id="@+id/txt_baojia_time"
+                        android:layout_width="@dimen/width_0dp"
+                        android:layout_height="wrap_content"
+                        android:text="XXXXXX(时间)"
+                        android:layout_weight="3.5"
+                        android:textSize="@dimen/font_14sp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="@dimen/width_0dp"
+                        android:layout_height="wrap_content"
+                        android:text="级别"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/font_14sp"/>
+                    <TextView
+                        android:id="@+id/txt_baojia_grade"
+                        android:layout_width="@dimen/width_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3.5"
+                        android:text="XXXXX"
+                        android:textSize="@dimen/font_14sp"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:id="@+id/txt_baojia_permit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="XXXX(营业执照)"
+                    android:textColor="#ff0000"
+                    android:textSize="@dimen/font_14sp"
+
+                    />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="5dp"/>
+                <TextView
+                    android:id="@+id/txt_baojia_money"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="XXXX(保证金)"
+                    android:textSize="@dimen/font_14sp"
+                    android:textColor="#ff0000"
+
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txt_baojia_price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="xx(报价）"
+                android:textSize="@dimen/font_18sp"
+                android:background="#cfb7ff"
+                android:textColor="#ff0a1e"
+
+                android:gravity="center"/>
+            <Button
+                android:layout_weight="0.4"
+                android:id="@+id/bn_baojia_recive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认报价"
+                android:textSize="@dimen/font_18sp"
+                android:gravity="center"
+             />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="@dimen/width_0dp"
+                android:layout_height="wrap_content"
+                android:text="描述 "
+                android:textSize="@dimen/font_17sp"
+                android:layout_centerInParent="true"
+                android:layout_weight="1"
+                />
+
+
+        <TextView
+            android:id="@+id/txt_baojia_description"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="wrap_content"
+            android:text="质量保证，假一赔十，买不到吃亏买不到上当"
+            android:textSize="@dimen/font_17sp"
+            android:layout_weight="7"
+            />
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dip">
+        <View
+            android:layout_width="2dp"
+            android:layout_height="116dp"/>
+        <ImageView
+            android:id="@+id/image_baojia_car1"
+            android:layout_width="fill_parent"
+            android:layout_height="116dp"
+            android:src="@drawable/view5"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="116dp"
+            />
+        <ImageView
+            android:id="@+id/image_baojia_car2"
+            android:layout_width="fill_parent"
+            android:layout_height="116dp"
+            android:src ="@drawable/view5"
+            android:scaleType="fitXY"
+            android:layout_weight="1"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="116dp"
+            />
+        <ImageView
+            android:id="@+id/image_baojia_car3"
+            android:layout_width="fill_parent"
+            android:layout_height="116dp"
+            android:src="@drawable/view5"
+            android:scaleType="fitXY"
+            android:layout_weight="1
+            "/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="116dp"/>
+    </LinearLayout>
+</LinearLayout>

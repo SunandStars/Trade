@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:orientation="horizontal"-->
+
+    <!-->-->
+    <RadioGroup
+        android:id="@+id/tab_radiogroup"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/OtherPages_UnderProcess"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_buy_item"
+            android:text="询价中"
+            android:textColor="@drawable/buycolors"
+            android:textSize="@dimen/font_14sp"
+            style="@style/TabButtonid1"/>
+        <RadioButton
+            android:id="@+id/OtherPages_InDeal"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="交易中"
+            android:textColor="@drawable/buycolors"
+            android:textSize="14sp"
+            android:background="@drawable/background_buy_item"
+            style="@style/TabButtonid1"
+            />
+        <RadioButton
+            android:id="@+id/OtherPages_Checked"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="已签收"
+            android:textColor="@drawable/buycolors"
+            android:textSize="@dimen/font_14sp"
+            android:background="@drawable/background_buy_item"
+            style="@style/TabButtonid1"/>
+        <RadioButton
+            android:id="@+id/OtherPages_Rejected"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:text="退单"
+            android:textColor="@drawable/buycolors"
+            android:textSize="@dimen/font_14sp"
+            android:background="@drawable/background_buy_item"
+            style="@style/TabButtonid1"
+            />
+    </RadioGroup>
+
+    <!--</LinearLayout>-->
+    <FrameLayout
+        android:id="@+id/tabcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <ListView
+            android:id="@+id/buy_list_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>

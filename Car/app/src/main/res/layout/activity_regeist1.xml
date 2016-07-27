@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.democlient.Regeist"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_default"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+           >
+
+
+        <TextView
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="wrap_content"
+            android:text="手机号"
+            android:textSize="@dimen/font_18sp"
+           android:layout_weight="0.5"
+            />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_18sp"
+            android:inputType="phone"
+            android:layout_weight="2"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="@dimen/width_0dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:hint="请输入验证码"
+                android:textColorHint="@color/bg_gray"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="@dimen/width_0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="点击获取验证码"
+                android:background="@color/white"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:text="下一页"
+        android:textSize="@dimen/font_18sp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:id="@+id/buy_t"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!--<TextView-->
+        <!--android:id="@+id/title"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="新订单"-->
+        <!--android:background="@drawable/textfield_default"-->
+        <!--android:textSize="22sp"-->
+        <!--/>-->
+</RelativeLayout>
+    <LinearLayout
+        android:id="@+id/buy_OtherPages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/buy_t"
+        android:background="@drawable/textfield_default"
+        >
+        <Button
+            android:id="@+id/buyer_enquiry"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="询价中"
+            android:textSize="@dimen/font_14sp"
+            />
+        <Button
+            android:id="@+id/buyer_trading"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="交易中"
+            android:textSize="@dimen/font_14sp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/buyer_Checked"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="已签收"
+            android:textSize="@dimen/font_14sp"
+            android:background="#ffffff"/>
+        <Button
+            android:id="@+id/buyer_Rejected"
+            android:layout_width="@dimen/width_0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="退单"
+            android:textSize="@dimen/font_14sp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_fillorder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="去下单"
+        android:textSize="@dimen/font_22sp"
+        android:background="@drawable/bottom_tab"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_margin="5dp"/>
+
+    <com.example.dawn.car.domain.RefreshableView
+        android:layout_below="@id/buy_OtherPages"
+        android:layout_above="@id/bt_fillorder"
+        android:id="@+id/refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <ListView
+        android:id="@+id/mylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+    </com.example.dawn.car.domain.RefreshableView>
+
+
+
+
+</RelativeLayout>
